@@ -3,23 +3,113 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(228,228,228);
+
 }
 
 .left-section {
-    background-color: lightblue;
-    width: 150px;
+    display: flex;
+    align-items: center;
 }
 
 .middle-section {
-    background-color: lightpink;
     flex: 1;
     margin-left: 70px;
     margin-right: 35px;
     max-width: 500px;
+    display: flex;
+    align-items: center;
 }
 
-.right-section {
-    background-color: lightblue;
-    width: 200px;
+.search-box {
+    flex: 1;
+    height: 36px;
+    padding-left: 10px;
+    font-size: 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(192,192,192);
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 3px rgba(0,0,0,0.05);
+    width: 0;
 }
 
+.search-box::placeholder {
+    font-family: Roboro, Arial;
+    font-size: 16px;
+}
+
+
+
+.search {
+    height: 40px;
+    width: 66px;
+    background-color: rgb(240,240,240);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(192,192,192);
+    border-radius: 2px;
+    margin-left: -1px;
+    margin-right: 10px;
+}
+
+.search-photo {
+    height: 25px;
+    margin-top: 4px;
+}
+
+.microphone {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(248,248,248);
+}
+
+.microphone-photo {
+    height: 20px;
+    margin-top: 4px;    
+}
+
+.right-section {   
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+
+.camera-picture {
+    height: 24px;
+}
+
+.apps-picture {
+    height: 24px;
+}
+
+.notifications-picture {
+    height: 24px;
+}
+
+.profilepicture {
+    height: 32px;
+    border-radius: 16px;
+}
+
+.hamburger-menu {
+    height: 40px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+.youtube {
+    height: 50px;
+}
