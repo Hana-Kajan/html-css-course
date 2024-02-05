@@ -14,126 +14,182 @@
 </head>
 
 <body>
-    <div class="header">
+    <header class="header">
         <div class="left-section">
-            <img class="hamburger-menu" src="thumbnail/hamburger-menu.png" alt="hamburger-menu">
+            <img class="hamburger-menu" src="thumbnail/download.svg" alt="hamburger-menu">
             <img class="youtube" src="thumbnail/download.png" alt="youtube">
         </div>
         <div class="middle-section">
             <input class="search-box" type="text" placeholder="Search">
-            <button class="search"><img class="search-photo"  src="thumbnail/search.png" alt="search"></button>
-            <button class="microphone"><img class="microphone-photo"  src="thumbnail/microphone.png" alt="microphone"></button>
+            <button class="search"><img class="search-photo"  src="thumbnail/search.svg" alt="search">
+            <div class="tooltip">Search</div>
+            </button>
+            <button class="microphone"><img class="microphone-photo"  src="thumbnail/microphone.svg" alt="microphone">
+                <div class="tooltip">Search with your voice</div>
+            </button>
         </div>
         <div class="right-section">
-            <img class="camera-picture" src="thumbnail/camera.png" alt="camera">
-            <img class="apps-picture" src="thumbnail/apps.png" alt="apps">
-            <img class="notifications-picture" src="thumbnail/notifications.png" alt="notifications">
+            <div class="upload-icon-container">
+                <img class="camera-picture" src="thumbnail/camera.png" alt="camera">
+                <div class="tooltip">Create</div>
+            </div>
+            <img class="apps-picture" src="thumbnail/apps.png" alt="apps">           
+            <div class="notifications-picture-container">
+                <img class="notifications-picture" src="thumbnail/notifications.png" alt="notifications">
+                <div class="notifications-count">
+                    3
+                </div>
+            </div>
             <img class="profilepicture" src="thumbnail/unnamed.jpg" alt="profile-picture">
         </div>        
-    </div>
+    </header>
 
-    <div class="sidebar">
-        sidebar
-    </div>
+    <nav class="sidebar">
+        <div class="sidebar-link">
+            <img src="thumbnail/home.svg" alt="home">
+            <div>Home</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="thumbnail/explore.svg" alt="explore">
+            <div>Explore</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="thumbnail/subscriptions.svg" alt="subscriptions">
+            <div>Subscriptions</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="thumbnail/originals.svg" alt="originals">
+            <div>Originals</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="thumbnail/youtube_music.svg" alt="youtube_music">
+            <div>YouTube Music</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="thumbnail/library.svg" alt="library">
+            <div>Library</div>
+        </div>
+    </nav>
     
-    
-    <div class="video-grid">
-        <div class="video-preview">
-            <div class="thumbnail-row">
-                 <img class="thumbnail" src="thumbnail/download.png" alt="youtube-image">
-            </div>
-            <div class="video-info-grid"> 
-                <div class="channel-picture">
-                    <img class="profile-picture" src="thumbnail/unnamed.jpg" alt="profile-picture">
-                </div>
-                <div class="video-info">
-                    <p class="video-title">Talking Texh and AI with Google CEO Sundar Pichai!</p>
-                    <p class="video-author">Marques Brownlee</p>
-                    <p class="video-stats">3.4M views &#183; 6 months ago</p>
-                    </div>
-                </div>         
-            </div>
-    
+    <main>
+        <section class="video-grid">
             <div class="video-preview">
                 <div class="thumbnail-row">
                      <img class="thumbnail" src="thumbnail/download.png" alt="youtube-image">
+                     <div class="video-time">
+                        14:20
+                     </div>
                 </div>
                 <div class="video-info-grid"> 
                     <div class="channel-picture">
                         <img class="profile-picture" src="thumbnail/unnamed.jpg" alt="profile-picture">
                     </div>
                     <div class="video-info">
-                        <p class="video-title">Try Not to Laugh Challenge</p>
-                        <p class="video-author">Markiplier</p>
-                        <p class="video-stats">19M views &#183; 4 years ago</p>
+                        <p class="video-title">Talking Texh and AI with Google CEO Sundar Pichai!</p>
+                        <p class="video-author">Marques Brownlee</p>
+                        <p class="video-stats">3.4M views &#183; 6 months ago</p>
                         </div>
                     </div>         
                 </div>
-    
+        
                 <div class="video-preview">
                     <div class="thumbnail-row">
                          <img class="thumbnail" src="thumbnail/download.png" alt="youtube-image">
+                         <div class="video-time">
+                            09:20
+                         </div>
                     </div>
                     <div class="video-info-grid"> 
                         <div class="channel-picture">
                             <img class="profile-picture" src="thumbnail/unnamed.jpg" alt="profile-picture">
                         </div>
                         <div class="video-info">
-                            <p class="video-title">Talking Texh and AI with Google CEO Sundar Pichai!</p>
-                            <p class="video-author">Marques Brownlee</p>
-                            <p class="video-stats">3.4M views &#183; 6 months ago</p>
+                            <p class="video-title">Try Not to Laugh Challenge</p>
+                            <p class="video-author">Markiplier</p>
+                            <p class="video-stats">19M views &#183; 4 years ago</p>
                             </div>
                         </div>         
                     </div>
-            
+        
                     <div class="video-preview">
                         <div class="thumbnail-row">
                              <img class="thumbnail" src="thumbnail/download.png" alt="youtube-image">
+                             <div class="video-time">
+                                18:30
+                             </div>
                         </div>
                         <div class="video-info-grid"> 
                             <div class="channel-picture">
                                 <img class="profile-picture" src="thumbnail/unnamed.jpg" alt="profile-picture">
                             </div>
                             <div class="video-info">
-                                <p class="video-title">Try Not to Laugh Challenge</p>
-                                <p class="video-author">Markiplier</p>
-                                <p class="video-stats">19M views &#183; 4 years ago</p>
+                                <p class="video-title">Talking Texh and AI with Google CEO Sundar Pichai!</p>
+                                <p class="video-author">Marques Brownlee</p>
+                                <p class="video-stats">3.4M views &#183; 6 months ago</p>
                                 </div>
                             </div>         
                         </div>
-                        
+                
                         <div class="video-preview">
                             <div class="thumbnail-row">
                                  <img class="thumbnail" src="thumbnail/download.png" alt="youtube-image">
+                                 <div class="video-time">
+                                    11:20
+                                 </div>
                             </div>
                             <div class="video-info-grid"> 
                                 <div class="channel-picture">
                                     <img class="profile-picture" src="thumbnail/unnamed.jpg" alt="profile-picture">
                                 </div>
                                 <div class="video-info">
-                                    <p class="video-title">Talking Texh and AI with Google CEO Sundar Pichai!</p>
-                                    <p class="video-author">Marques Brownlee</p>
-                                    <p class="video-stats">3.4M views &#183; 6 months ago</p>
+                                    <p class="video-title">Try Not to Laugh Challenge</p>
+                                    <p class="video-author">Markiplier</p>
+                                    <p class="video-stats">19M views &#183; 4 years ago</p>
                                     </div>
                                 </div>         
                             </div>
-                    
+                            
                             <div class="video-preview">
                                 <div class="thumbnail-row">
                                      <img class="thumbnail" src="thumbnail/download.png" alt="youtube-image">
+                                     <div class="video-time">
+                                        05:50
+                                     </div>
                                 </div>
                                 <div class="video-info-grid"> 
                                     <div class="channel-picture">
                                         <img class="profile-picture" src="thumbnail/unnamed.jpg" alt="profile-picture">
                                     </div>
                                     <div class="video-info">
-                                        <p class="video-title">Try Not to Laugh Challenge</p>
-                                        <p class="video-author">Markiplier</p>
-                                        <p class="video-stats">19M views &#183; 4 years ago</p>
+                                        <p class="video-title">Talking Texh and AI with Google CEO Sundar Pichai!</p>
+                                        <p class="video-author">Marques Brownlee</p>
+                                        <p class="video-stats">3.4M views &#183; 6 months ago</p>
                                         </div>
                                     </div>         
                                 </div>
-                            </div>
+                        
+                                <div class="video-preview">
+                                    <div class="thumbnail-row">
+                                         <img class="thumbnail" src="thumbnail/download.png" alt="youtube-image">
+                                         <div class="video-time">
+                                            06:50
+                                         </div>
+                                    </div>
+                                    <div class="video-info-grid"> 
+                                        <div class="channel-picture">
+                                            <img class="profile-picture" src="thumbnail/unnamed.jpg" alt="profile-picture">
+                                        </div>
+                                        <div class="video-info">
+                                            <p class="video-title">Try Not to Laugh Challenge</p>
+                                            <p class="video-author">Markiplier</p>
+                                            <p class="video-stats">19M views &#183; 4 years ago</p>
+                                            </div>
+                                        </div>         
+                                    </div>
+                                </section>
+    </main>
+    
+    
 
 </body>
 </html>  
